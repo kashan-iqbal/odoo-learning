@@ -1,0 +1,36 @@
+<odoo>
+  <template id="teacher_list_web" name="teacher list">
+    <t t-call="website.layout">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <h1>Teacher List</h1>
+            <table class="table table-striped">
+              <thead>
+                <tr>
+                  <th>Name</th>
+                  <th>Subject</th>
+                  <th>Age</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr t-foreach="teachers" t-as="teacher">
+                  <td>
+                    <t t-esc="teacher.name" />
+                  </td>
+                  <td>
+                    <t t-esc="teacher.subject" />
+                  </td>
+                  <td>
+                    <t t-esc="teacher.age" />
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </t>
+
+  </template>
+</odoo>

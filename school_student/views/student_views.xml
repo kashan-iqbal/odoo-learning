@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <!-- Tree View -->
+    <record id="view_student_tree" model="ir.ui.view">
+        <field name="name">school student list</field>
+        <field name="model">school.student</field>
+        <field name="arch" type="xml">
+            <tree>
+                <field name="name" />
+                <field name="roll_number" />
+                <field name="class_name" />
+                <field name="age" />
+                <field name="unique_id" />
+                <field name="subject_ids" />
+            </tree>
+        </field>
+    </record>
+
+
+    <!-- Form View -->
+    <record id="view_student_form" model="ir.ui.view">
+        <field name="name">school student listing</field>
+        <field name="model">school.student</field>
+        <field name="arch" type="xml">
+            <form>
+                <header>
+                    <button name="%(school_student.action_report_student_card)d"
+                        string="Print Card"
+                        type="action"
+                        class="btn-primary"
+                        invisible="not id"
+                    />
+                    <button name="action_send_email"
+                        string="Send Email"
+                        type="object"
+                        class="btn-primary"
+                    />
+                </header>
+                <sheet>
+                    <group>
+                        <field name="name" />
+                        <field name="roll_number" />
+                        <field name="class_name" />
+                        <field name="active" />
+                        <field name="class_id" />
+                        <field name="subject_ids" widget="many2many_tags"
+                            options="{'color_field':'color'}" />
+                        <field name="age" />
+                        <field name="unique_id" />
+                        <field name="Teacher_id" />
+                    </group>
+                </sheet>
+
+                <div class="oe_chatter">
+                    <field name="message_follower_ids" widget="mail_followers" />
+                    <field name="activity_ids" widget="mail_activity" />
+                    <field name="message_ids" widget="mail_thread" />
+                </div>
+            </form>
+        </field>
+    </record>
+
+    <!-- Action -->
+    <record id="action_student" model="ir.actions.act_window">
+        <field name="name">Students</field>
+        <field name="res_model">school.student</field>
+        <field name="view_mode">tree,kanban,form</field>
+        <field name="help" type="html">
+            <p class="o_view_nocontent_smiling_face">
+                Create your first student record
+            </p>
+        </field>
+    </record>
+</odoo>

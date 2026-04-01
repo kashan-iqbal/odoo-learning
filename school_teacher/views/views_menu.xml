@@ -1,0 +1,14 @@
+<odoo>
+
+  <menuitem id="teacher_root_menu"
+    name="Teacher Management"
+    web_icon="school_teacher,/static/description/icon.png"
+    sequence="10" />
+
+
+  <menuitem id="teacher_menu"
+    name="Teachers"
+    parent="teacher_root_menu"
+    action="action_teacher"
+    sequence="10" />
+</odoo>

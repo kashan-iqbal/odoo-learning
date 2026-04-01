@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+
+    <menuitem id="student_root_menu"
+        name="School Management"
+        web_icon="school_student,/static/description/icon.png"
+        sequence="10" />
+
+
+    <menuitem id="student_menu"
+        name="Students"
+        parent="student_root_menu"
+        action="action_student"
+        sequence="10" />
+
+    <menuitem id="student_class_menu"
+        name="Class"
+        parent="student_root_menu"
+        action="action_class_name"
+        sequence="9" />
+
+    <menuitem
+        id="student_subject_menu"
+        name="Subject"
+        parent="student_root_menu"
+        action="action_subject_name"
+        sequence="8"
+    />
+
+</odoo>

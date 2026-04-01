@@ -1,0 +1,40 @@
+<odoo>
+
+  <!-- FORM VIEW -->
+  <record id="teacher_form_view" model="ir.ui.view">
+    <field name="name">school.teacher.form</field>
+    <field name="model">school.teacher</field>
+    <field name="arch" type="xml">
+      <form string="Teacher Form">
+        <sheet>
+          <group>
+            <field name="name" />
+            <field name="subject" />
+            <field name="age" />
+          </group>
+        </sheet>
+      </form>
+    </field>
+  </record>
+
+  <!-- TREE VIEW -->
+  <record id="teacher_tree_view" model="ir.ui.view">
+    <field name="name">school.teacher.tree</field>
+    <field name="model">school.teacher</field>
+    <field name="arch" type="xml">
+      <tree string="Teachers">
+        <field name="name" />
+        <field name="subject" />
+        <field name="age" />
+      </tree>
+    </field>
+  </record>
+
+  <!-- ACTION -->
+  <record id="action_teacher" model="ir.actions.act_window">
+    <field name="name">Teachers</field>
+    <field name="res_model">school.teacher</field>
+    <field name="view_mode">tree,form</field>
+  </record>
+
+</odoo>

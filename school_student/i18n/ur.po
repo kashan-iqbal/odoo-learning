@@ -1,0 +1,283 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* school_student
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 17.0-20250925\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-03-29 13:44+0000\n"
+"PO-Revision-Date: 2026-03-29 13:44+0000\n"
+"Last-Translator: \n"
+"Language-Team: Urdu <ur@li.org>\n"
+"Language: ur\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#. module: school_student
+#: model:ir.actions.report,print_report_name:school_student.report_student_card
+msgid "(object._get_report_base_filename())"
+msgstr "(object._get_report_base_filename())"
+
+#. module: school_student
+#: model:ir.module.category,description:school_student.module_school_student
+msgid "Access rights for student"
+msgstr "طالب علم کے لیے رسائی کے حقوق"
+
+#. module: school_student
+#: model:ir.model.fields,field_description:school_student.field_school_student__active
+#: model:ir.model.fields.selection,name:school_student.selection__school_class__status__active
+msgid "Active"
+msgstr "فعال"
+
+#. module: school_student
+#: model:ir.model.fields,field_description:school_student.field_school_student__age
+msgid "Age"
+msgstr "عمر"
+
+#. module: school_student
+#: model_terms:ir.ui.view,arch_db:school_student.report_student_card_template
+msgid "Age:"
+msgstr "عمر:"
+
+#. module: school_student
+#: model:ir.actions.act_window,name:school_student.action_class_name
+#: model:ir.ui.menu,name:school_student.student_class_menu
+msgid "Class"
+msgstr "کلاس"
+
+#. module: school_student
+#: model:ir.model.fields,field_description:school_student.field_school_student__class_name
+msgid "Class Name"
+msgstr "کلاس کا نام"
+
+#. module: school_student
+#: model_terms:ir.ui.view,arch_db:school_student.report_student_card_template
+msgid "Class:"
+msgstr "کلاس:"
+
+#. module: school_student
+#: model:ir.model.fields,field_description:school_student.field_school_subject__color
+msgid "Color"
+msgstr "رنگ"
+
+#. module: school_student
+#: model_terms:ir.actions.act_window,help:school_student.action_class_name
+msgid "Create your first class record"
+msgstr "اپنی پہلی کلاس کا ریکارڈ بنائیں"
+
+#. module: school_student
+#: model_terms:ir.actions.act_window,help:school_student.action_student
+msgid "Create your first student record"
+msgstr "اپنا پہلا طالب علم کا ریکارڈ بنائیں"
+
+#. module: school_student
+#: model_terms:ir.actions.act_window,help:school_student.action_subject_name
+msgid "Create your first subject record"
+msgstr "اپنا پہلا مضمون کا ریکارڈ بنائیں"
+
+#. module: school_student
+#: model:ir.model.fields,field_description:school_student.field_school_class__create_uid
+#: model:ir.model.fields,field_description:school_student.field_school_student__create_uid
+#: model:ir.model.fields,field_description:school_student.field_school_subject__create_uid
+msgid "Created by"
+msgstr "تخلیق کردہ"
+
+#. module: school_student
+#: model:ir.model.fields,field_description:school_student.field_school_class__create_date
+#: model:ir.model.fields,field_description:school_student.field_school_student__create_date
+#: model:ir.model.fields,field_description:school_student.field_school_subject__create_date
+msgid "Created on"
+msgstr "تخلیق کی تاریخ"
+
+#. module: school_student
+#: model:ir.model.fields,field_description:school_student.field_school_class__display_name
+#: model:ir.model.fields,field_description:school_student.field_school_student__display_name
+#: model:ir.model.fields,field_description:school_student.field_school_subject__display_name
+msgid "Display Name"
+msgstr "ظاہری نام"
+
+#. module: school_student
+#: model:ir.model.fields,field_description:school_student.field_school_class__id
+#: model:ir.model.fields,field_description:school_student.field_school_student__id
+#: model:ir.model.fields,field_description:school_student.field_school_subject__id
+msgid "ID"
+msgstr "شناختی نمبر"
+
+#. module: school_student
+#: model_terms:ir.ui.view,arch_db:school_student.report_student_card_template
+msgid "ID:"
+msgstr "شناختی نمبر:"
+
+#. module: school_student
+#: model:ir.model.fields.selection,name:school_student.selection__school_class__status__inactive
+msgid "Inactive"
+msgstr "غیر فعال"
+
+#. module: school_student
+#: model:ir.model.fields,field_description:school_student.field_school_class__write_uid
+#: model:ir.model.fields,field_description:school_student.field_school_student__write_uid
+#: model:ir.model.fields,field_description:school_student.field_school_subject__write_uid
+msgid "Last Updated by"
+msgstr "آخری بار ترمیم کردہ"
+
+#. module: school_student
+#: model:ir.model.fields,field_description:school_student.field_school_class__write_date
+#: model:ir.model.fields,field_description:school_student.field_school_student__write_date
+#: model:ir.model.fields,field_description:school_student.field_school_subject__write_date
+msgid "Last Updated on"
+msgstr "آخری ترمیم کی تاریخ"
+
+#. module: school_student
+#: model:ir.model.fields,field_description:school_student.field_school_student__name
+msgid "Name"
+msgstr "نام"
+
+#. module: school_student
+#: model_terms:ir.ui.view,arch_db:school_student.report_student_card_template
+msgid "Name:"
+msgstr "نام:"
+
+#. module: school_student
+#: model_terms:ir.ui.view,arch_db:school_student.view_student_form
+msgid "Print Card"
+msgstr "کارڈ پرنٹ کریں"
+
+#. module: school_student
+#: model:ir.model.fields,field_description:school_student.field_school_student__roll_number
+msgid "Roll Number"
+msgstr "رول نمبر"
+
+#. module: school_student
+#: model_terms:ir.ui.view,arch_db:school_student.report_student_card_template
+msgid "Roll:"
+msgstr "رول:"
+
+#. module: school_student
+#: model:res.groups,name:school_student.group_school_admin
+msgid "School Admin"
+msgstr "اسکول منتظم"
+
+#. module: school_student
+#: model:ir.ui.menu,name:school_student.student_root_menu
+msgid "School Management"
+msgstr "اسکول مینجمنٹ"
+
+#. module: school_student
+#: model:res.groups,name:school_student.group_school_super
+msgid "School Super"
+msgstr "اسکول سپر"
+
+#. module: school_student
+#: model:ir.model.fields,field_description:school_student.field_school_class__status
+msgid "Status"
+msgstr "حیثیت"
+
+#. module: school_student
+#: model:ir.actions.report,name:school_student.action_report_student_card
+#: model:ir.actions.report,name:school_student.report_student_card
+#: model_terms:ir.ui.view,arch_db:school_student.report_student_card_template
+msgid "Student Card"
+msgstr "طالب علم کارڈ"
+
+#. module: school_student
+#: model:ir.actions.act_window,name:school_student.action_student
+#: model:ir.ui.menu,name:school_student.student_menu
+msgid "Students"
+msgstr "طلبہ"
+
+#. module: school_student
+#: model:ir.actions.act_window,name:school_student.action_subject_name
+#: model:ir.ui.menu,name:school_student.student_subject_menu
+msgid "Subject"
+msgstr "مضمون"
+
+#. module: school_student
+#: model:ir.actions.server,name:school_student.ir_cron_subject_ir_actions_server
+msgid "Subject Cron Job"
+msgstr "مضمون کا کرون جاب"
+
+#. module: school_student
+#: model_terms:ir.ui.view,arch_db:school_student.view_subject_form
+msgid "Test Client"
+msgstr "ٹیسٹ کلائنٹ"
+
+#. module: school_student
+#: model_terms:ir.ui.view,arch_db:school_student.view_class_form
+msgid "active"
+msgstr "فعال"
+
+#. module: school_student
+#: model:ir.model.fields,field_description:school_student.field_school_student__class_id
+msgid "class"
+msgstr "کلاس"
+
+#. module: school_student
+#: model:ir.model.fields,field_description:school_student.field_school_class__class_name
+msgid "class name"
+msgstr "کلاس کا نام"
+
+#. module: school_student
+#: model_terms:ir.ui.view,arch_db:school_student.view_class_form
+msgid "inactive"
+msgstr "غیر فعال"
+
+#. module: school_student
+#: model:ir.module.category,name:school_student.module_school_student
+msgid "school"
+msgstr "اسکول"
+
+#. module: school_student
+#: model:ir.model,name:school_student.model_school_class
+msgid "student class many to one relation"
+msgstr "طالب علم کلاس کا کئی سے ایک تعلق"
+
+#. module: school_student
+#: model:ir.model,name:school_student.model_school_student
+msgid "student record"
+msgstr "طالب علم کا ریکارڈ"
+
+#. module: school_student
+#: model:ir.model,name:school_student.model_school_subject
+msgid "student subject many to many relationship"
+msgstr "طالب علم مضمون کا کئی سے کئی تعلق"
+
+#. module: school_student
+#: model:ir.model,name:school_student.model_school_teacher
+msgid "student teacher many to many relation"
+msgstr "طالب علم استاد کا کئی سے کئی تعلق"
+
+#. module: school_student
+#: model:ir.model.fields,field_description:school_student.field_school_student__subject_unique_id
+#: model:ir.model.fields,field_description:school_student.field_school_subject__subject_id
+msgid "subject id"
+msgstr "مضمون کی شناخت"
+
+#. module: school_student
+#: model:ir.model.fields,field_description:school_student.field_school_subject__subject_name
+msgid "subject name"
+msgstr "مضمون کا نام"
+
+#. module: school_student
+#: model:ir.model.fields,field_description:school_student.field_school_student__subject_ids
+msgid "subjects"
+msgstr "مضامین"
+
+#. module: school_student
+#: model:ir.model.fields,field_description:school_student.field_school_student__teacher_email
+#: model:ir.model.fields,field_description:school_student.field_school_teacher__teacher_email
+msgid "teacher email"
+msgstr "استاد کا ای میل"
+
+#. module: school_student
+#: model:ir.model.fields,field_description:school_student.field_school_student__teacher_name
+#: model:ir.model.fields,field_description:school_student.field_school_teacher__teacher_name
+msgid "teacher name"
+msgstr "استاد کا نام"
+
+#. module: school_student
+#: model:ir.model.fields,field_description:school_student.field_school_student__unique_id
+msgid "unique id"
+msgstr "منفرد شناخت"

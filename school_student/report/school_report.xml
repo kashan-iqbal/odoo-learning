@@ -1,0 +1,17 @@
+<odoo>
+  <data>
+    <record id="report_student_card" model="ir.actions.report">
+      <field name="name">Student Card</field>
+      <field name="model">school.student</field>
+      <field name="report_type">qweb-pdf</field>  <!-- or qweb-html -->
+      <field name="report_name">school_student.report_student_card_template</field>
+      <field name="report_file">school_student.report_student_card_template</field>
+      <field name="print_report_name">(object._get_report_base_filename())</field>
+      <field name="attachment">(object.name)+'.pdf'</field>
+      <field name="binding_model_id" ref="school_student.model_school_student" />
+      <field name="binding_type">report</field>
+      <!-- <field name="groups_id" eval="[(4, ref('school_student.group_school_admin'))]" /> -->
+
+    </record>
+  </data>
+</odoo>
